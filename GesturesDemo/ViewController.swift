@@ -13,7 +13,6 @@ class ViewController: UIViewController
     @IBOutlet weak var myimageView: UIImageView!
     @IBOutlet weak var myLabel: UILabel!
     
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -37,7 +36,7 @@ class ViewController: UIViewController
             y: gestureView.center.y + translation.y )
         sender.setTranslation(.zero, in: view)
         }
-        
     }
+
 
 
